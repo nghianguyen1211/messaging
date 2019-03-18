@@ -22,6 +22,12 @@ public interface Consumer {
     
     /**
      * 
+     * @return Name of this consumer
+     */
+    String name();
+    
+    /**
+     * 
      * @return True or false
      */
     boolean isAutoAck();

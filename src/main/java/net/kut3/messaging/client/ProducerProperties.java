@@ -19,9 +19,9 @@ package net.kut3.messaging.client;
  *
  */
 public abstract class ProducerProperties extends BaseProperties {
-    
+
     /**
-     * 
+     *
      * @param name Name or id of the producer
      */
     public ProducerProperties(String name) {

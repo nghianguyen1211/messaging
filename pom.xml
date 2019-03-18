@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>net.kut3</groupId>
     <artifactId>messaging</artifactId>
-    <version>0.1.0</version>
+    <version>0.2.0</version>
     <packaging>jar</packaging>
     
     <name>${project.artifactId}-${project.version}</name>
@@ -36,17 +36,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <kafka.client.version>0.3.0</kafka.client.version>
     </properties>
-    
-    <dependencies>
-        <dependency>
-            <groupId>net.kut3.messaging</groupId>
-            <artifactId>kafka-client</artifactId>
-            <version>0.3.0</version>
-            <scope>provided</scope>
-        </dependency>
-    </dependencies>
     
     <distributionManagement>
         <snapshotRepository>
